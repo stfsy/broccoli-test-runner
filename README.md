@@ -19,6 +19,7 @@ describe('Serves', () => {
     after(() => {
         return runner.stop()
     })
+    it('..', ..) // test your plugin serves content as expected
 })
 
 describe('Builds', () = {
@@ -28,6 +29,7 @@ describe('Builds', () = {
     after(() => {
         return runner.stop()
     })
+    it('..', ..) // test your plugin builds content as expected
 })
 ```
 
