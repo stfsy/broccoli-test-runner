@@ -9,31 +9,28 @@ const puppeteer = require('puppeteer')
 const rimRaf = require('rimraf')
 
 describe('BroccoliTestRunner', () => {
-    let browser = null
-    let page = null
 
     after(() => {
         return new Promise((resolve) => {
             rimRaf('test/fixtures/dist', resolve)
-        }).then(() => {
-            browser.close()
         })
     })
 
     describe('.serve', () => {
+        let page = null
+
         before(() => {
             return runner.serve()
-        })
-        before(() => {
-            return puppeteer.launch({ headless: true }).then((b) => {
-                browser = b
-                return browser.newPage()
-            }).then((p) => {
-                page = p
-            })
+                .then(() => puppeteer.launch({ headless: true }))
+                .then((browser) => {
+                    return browser.newPage()
+                }).then((p) => {
+                    page = p
+                })
         })
         after(() => {
             return runner.stop()
+                .then(() => page.browser().close())
         })
 
         it('serves content', () => {
@@ -49,11 +46,20 @@ describe('BroccoliTestRunner', () => {
     })
 
     describe('.build', () => {
+        let page = null
+
         before(() => {
             return runner.build()
+                .then(() => puppeteer.launch({ headless: true }))
+                .then((browser) => {
+                    return browser.newPage()
+                }).then((p) => {
+                    page = p
+                })
         })
         after(() => {
             return runner.stop()
+                .then(() => page.browser().close())
         })
         it('does not serve content', () => {
 
