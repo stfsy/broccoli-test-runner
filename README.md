@@ -14,20 +14,20 @@ const broccoliRunner = new BroccoliTestRunner('test/fixtures') // path to build 
 
 describe('Serves', () => {
     before(() => {
-       return  runner.build()
+       return  broccoliRunner.build()
     })
     after(() => {
-        return runner.stop()
+        return broccoliRunner.stop()
     })
     it('..', ..) // test your plugin serves content as expected
 })
 
 describe('Builds', () = {
     before(() => {
-       return  runner.build()
+       return  broccoliRunner.build()
     })
     after(() => {
-        return runner.stop()
+        return broccoliRunner.stop()
     })
     it('..', ..) // test your plugin builds content as expected
 })
