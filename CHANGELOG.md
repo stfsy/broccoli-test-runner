@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/stfsy/broccoli-test-runner/compare/v1.0.0...v1.1.0) (2020-09-16)
+
+
+### Features
+
+* add runner methods for cli shorthands ([7e9f16a](https://github.com/stfsy/broccoli-test-runner/commit/7e9f16a))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2020-04-11)
 
