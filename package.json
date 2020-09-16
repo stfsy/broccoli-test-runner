@@ -20,6 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/stfsy/broccoli-test-runner.git"
   },
+  "dependencies": {
+    "broccoli": "^3.4.2",
+    "broccoli-cli": "^1.0.0"
+  },
   "devDependencies": {
     "broccoli": "^3.4.1",
     "broccoli-plugin-adapter": "^1.2.1",
