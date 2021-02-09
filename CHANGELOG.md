@@ -1,3 +1,18 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/stfsy/broccoli-test-runner/compare/v1.1.0...v1.2.0) (2021-02-09)
+
+
+### Bug Fixes
+
+* add missing broccoli dependencies ([44e8a0c](https://github.com/stfsy/broccoli-test-runner/commit/44e8a0c))
+
+
+### Features
+
+* update outdated dependencies ([535c116](https://github.com/stfsy/broccoli-test-runner/commit/535c116))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/stfsy/broccoli-test-runner/compare/v1.1.0...v1.1.1) (2020-09-16)
 
