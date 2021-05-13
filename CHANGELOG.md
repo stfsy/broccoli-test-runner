@@ -1,3 +1,14 @@
+# [1.3.0](https://github.com/stfsy/broccoli-test-runner/compare/v1.2.0...v1.3.0) (2021-05-13)
+
+
+### Features
+
+* update outdated dependencies ([584e0cd](https://github.com/stfsy/broccoli-test-runner/commit/584e0cdc566a9c5fb464e1a3a7ca73f3c32a0861))
+* update vulnerable dependencies ([1478395](https://github.com/stfsy/broccoli-test-runner/commit/1478395cef2879bb3bb3547230e7e42d5373ebcd))
+* update vulnerable dependencies ([36067cf](https://github.com/stfsy/broccoli-test-runner/commit/36067cf8ac2d9bce879a9c2432d7a75ac2296f80))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/stfsy/broccoli-test-runner/compare/v1.1.0...v1.2.0) (2021-02-09)
 
